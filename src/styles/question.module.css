@@ -1,0 +1,40 @@
+div.top{
+    min-height: 6vh;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+div.questions{
+    text-align: center;
+    ;
+}
+div.questions h3{
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    padding: 15px 15px 10px 15px;
+    ;
+}
+div.questions ul{
+    list-style-type: none;
+    margin: 0 20px;
+    padding-bottom: 20px;
+    ;
+}
+div.questions ul li{
+    background-color: #fff;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(131, 174, 177);
+    cursor: pointer;
+    transition: all 0.5s;
+    ;
+}
+div.questions ul li:hover{
+    box-shadow: inset 2px 2px 5px rgb(131, 174, 177);
+}

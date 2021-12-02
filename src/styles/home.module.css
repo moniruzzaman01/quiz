@@ -1,0 +1,27 @@
+div.landing_sec{
+    display: block;
+    ;
+}
+div.landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    ;
+}
+.btn{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(131, 174, 177),
+                2px 2px 5px rgb(24, 128, 136);
+    transition: all 0.5s;
+    ;
+}
+div.landing button:hover{
+    box-shadow: inset 2px 2px 5px rgb(131, 174, 177),
+                inset 2px 2px 5px rgb(24, 128, 136);
+
+}

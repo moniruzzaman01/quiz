@@ -1,0 +1,18 @@
+div.result{
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+div.result h2{
+    font-size: 30px;
+    border-bottom: 1px solid #fff;
+    margin: 15px;
+    letter-spacing: 1px;
+    ;
+}
+div.result p{
+    font-size: 18px;
+    color: green;
+}
