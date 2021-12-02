@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    ;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    ;
+}
+/* layout */
+div.main{
+    background-color: #b5eeee;
+    min-height: 40vh;
+    width: 50vh;
+    border-radius: 10px;
+}
+/* quiz page top css */
+div.top{
+    min-height: 6vh;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+/* quiz page content css */
+div.questions{
+    text-align: center;
+    ;
+}
+div.questions h3{
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    padding: 15px 15px 10px 15px;
+    ;
+}
+div.questions ul{
+    list-style-type: none;
+    margin: 0 20px;
+    ;
+}
+div.questions ul li{
+    background-color: #fff;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(131, 174, 177);
+    cursor: pointer;
+    transition: all 0.5s;
+    ;
+}
+div.questions ul li:hover{
+    box-shadow: inset 2px 2px 5px rgb(131, 174, 177);
+}
+/* Landing page css */
+div.landing_sec{
+    display: block;
+    ;
+}
+div.landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    ;
+}
+.btn{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(131, 174, 177),
+                2px 2px 5px rgb(24, 128, 136);
+    transition: all 0.5s;
+    ;
+}
+div.landing button:hover{
+    box-shadow: inset 2px 2px 5px rgb(131, 174, 177),
+                inset 2px 2px 5px rgb(24, 128, 136);
+
+}
+/* result page */
+div.result{
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+div.result h2{
+    font-size: 30px;
+    border-bottom: 1px solid #fff;
+    margin: 15px;
+    letter-spacing: 1px;
+    ;
+}
+div.result p{
+    font-size: 18px;
+    color: green;
+}
